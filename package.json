@@ -1,0 +1,25 @@
+{
+  "name": "mern_stack",
+  "version": "1.0.0",
+  "description": "Mern Stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arfiancahya/mern_stack.git"
+  },
+  "keywords": [
+    "Mern",
+    "Stack",
+    "For",
+    "Blogger"
+  ],
+  "author": "Arfian Cahya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arfiancahya/mern_stack/issues"
+  },
+  "homepage": "https://github.com/arfiancahya/mern_stack#readme"
+}
