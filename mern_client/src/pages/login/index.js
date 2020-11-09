@@ -18,6 +18,10 @@ const Login = () => {
                         <i className="far fa-envelope fa-lg min-width-50  background-color-grey padding-top-13 padding-left-10 padding-btm-13 border-top-left-10 border-btm-left-10" />
                         <Input className="width-250 padding-10 border-top-right-10 border-btm-right-10 outline-none box-sizing border-none background-color-grey" placeholder="Email" />
                     </div>
+                    <div className="password flex-normal flex-content-center">
+                        <i className="fas fa-lock fa-lg min-width-50  background-color-grey padding-top-13 padding-left-10 padding-btm-13 border-top-left-10 border-btm-left-10" />
+                        <Input className="width-250 padding-10 border-top-right-10 border-btm-right-10 outline-none box-sizing border-none background-color-grey" placeholder="Password" />
+                    </div>
                 </div>
                 <div className="width-30 text-align-center background-color-red flex-normal flex-direction-coloumn flex-content-center text-align-center">
                     <h1>Hello Friend</h1>
