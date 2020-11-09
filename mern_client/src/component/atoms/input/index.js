@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react';
 
-const Input = () => {
+const Input = ({...rest}) => {
     return (
         <Fragment>
-            <p>Label input</p>
-            <input placeholder="Email" />
+            <input {...rest} />
         </Fragment>
     );
 }

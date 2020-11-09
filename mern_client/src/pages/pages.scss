@@ -1,4 +1,5 @@
 $font-color: #398F75;
+$font-color-gray: rgba(201, 201, 201, 0.89);
 
 .flex-normal {
     display: flex;
@@ -34,4 +35,16 @@ $font-color: #398F75;
 
 .font-color-green{
     color: $font-color;
+}
+
+.margin-left-20{
+    margin-left: 20px;
+}
+
+.margin-right-20{
+    margin-right: 20px;
+}
+
+.font-color-gray-89{
+    color: $font-color-gray;
 }
