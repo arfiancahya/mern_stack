@@ -14,7 +14,9 @@ const Login = () => {
                     </div>
                 </div>
                 <div className="width-30 text-align-center background-color-red flex-normal flex-direction-coloumn flex-content-center text-align-center">
-                    <h1>Admin Login</h1>
+                    <h1>Hello Friend</h1>
+                    <p>Enter your personal details and start journey with us </p>
+                    
                 </div>
             </div>
         </Fragment>
