@@ -1,5 +1,6 @@
 $font-color: #398F75;
 $font-color-gray: rgba(201, 201, 201, 0.89);
+$font-color-white: white;
 $font-color-black: #545454;
 $bg-form: rgba(238, 238, 238, 1);
 
@@ -31,8 +32,16 @@ $bg-form: rgba(238, 238, 238, 1);
     width: 30vw;
 }
 
+.width-74{
+    width: 170px;
+}
+
 .width-350{
     width: 350px;
+}
+
+.padding-18{
+    padding: 18px;
 }
 
 .padding-20{
@@ -63,6 +72,10 @@ $bg-form: rgba(238, 238, 238, 1);
     background: rgba(238, 238, 238, 1);
 }
 
+.background-color-green{
+    background-color: $font-color;
+}
+
 .font-size-45{
     font-size: 45px;
 }
@@ -79,6 +92,18 @@ $bg-form: rgba(238, 238, 238, 1);
     font-weight: bold;
 }
 
+.font-color-gray-89{
+    color: $font-color-gray;
+}
+
+.font-upper{
+    text-transform: uppercase;
+}
+
+.font-color-white{
+    color: $font-color-white;
+}
+
 .margin-left-20{
     margin-left: 20px;
 }
@@ -87,9 +112,7 @@ $bg-form: rgba(238, 238, 238, 1);
     margin-right: 20px;
 }
 
-.font-color-gray-89{
-    color: $font-color-gray;
-}
+
 
 .border-none{
     border: none;
@@ -97,6 +120,10 @@ $bg-form: rgba(238, 238, 238, 1);
 
 .border-radius-10{
     border-radius: 10px;
+}
+
+.border-radius-24{
+    border-radius: 24px;
 }
 
 .border-top-right-10{

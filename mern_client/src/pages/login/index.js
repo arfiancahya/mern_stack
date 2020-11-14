@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Input } from '../../component';
+import { Button, Input } from '../../component';
 import '../pages.scss'
 
 const Login = () => {
@@ -23,6 +23,7 @@ const Login = () => {
                         <Input className="width-350 padding-20 border-top-right-10 border-btm-right-10 outline-none box-sizing border-none background-color-grey" placeholder="Password" />
                     </div>
                     <p className="font-color-black font-bold">Forgot your password</p>
+                    <Button title="Sign In" className="background-color-green width-74 padding-18 font-upper font-color-white border-none border-radius-24" />
                 </div>
                 <div className="width-30 text-align-center background-color-red flex-normal flex-direction-coloumn flex-content-center text-align-center">
                     <h1>Hello Friend</h1>
