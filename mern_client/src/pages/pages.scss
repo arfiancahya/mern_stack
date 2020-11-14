@@ -2,6 +2,8 @@ $font-color: #398F75;
 $font-color-gray: rgba(201, 201, 201, 0.89);
 $font-color-white: white;
 $font-color-black: #545454;
+$bg-transparant: rgba(255, 255, 255, 0);
+$bg-green: linear-gradient(344.77deg, #2E8474 -3.41%, rgba(133, 218, 120, 0) 106.89%), #2E8474;
 $bg-form: rgba(238, 238, 238, 1);
 
 .flex-normal {
@@ -28,8 +30,8 @@ $bg-form: rgba(238, 238, 238, 1);
     text-align: center;
 }
 
-.width-30{
-    width: 30vw;
+.width-28{
+    width: 28vw;
 }
 
 .width-74{
@@ -38,6 +40,10 @@ $bg-form: rgba(238, 238, 238, 1);
 
 .width-350{
     width: 350px;
+}
+
+.padding-12{
+    padding: 12px;
 }
 
 .padding-18{
@@ -68,6 +74,10 @@ $bg-form: rgba(238, 238, 238, 1);
     background-color: red;
 }
 
+.background-color-trans{
+    background: $bg-transparant;
+}
+
 .background-color-grey{
     background: rgba(238, 238, 238, 1);
 }
@@ -76,8 +86,28 @@ $bg-form: rgba(238, 238, 238, 1);
     background-color: $font-color;
 }
 
+.background-color-gradient{
+    background: $bg-green;
+}
+
+.background-image{
+    background-image: url(./../asset/icon/Hiasan.svg);
+}
+
+.background-cover{
+    background-size: cover;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
 .font-size-45{
     font-size: 45px;
+}
+
+.font-size-50{
+    font-size: 50px;
 }
 
 .font-color-green{
@@ -104,12 +134,28 @@ $bg-form: rgba(238, 238, 238, 1);
     color: $font-color-white;
 }
 
+.text-indent{
+    text-indent: 5em;
+}
+
+.text-wrap{
+    overflow-wrap: break-word;
+}
+
 .margin-left-20{
     margin-left: 20px;
 }
 
 .margin-right-20{
     margin-right: 20px;
+}
+
+.margin-left-40{
+    margin-left: 100px;
+}
+
+.margin-right-40{
+    margin-right: 100px;
 }
 
 .border-none{
