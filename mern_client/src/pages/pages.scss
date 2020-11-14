@@ -1,5 +1,6 @@
 $font-color: #398F75;
 $font-color-gray: rgba(201, 201, 201, 0.89);
+$font-color-black: #545454;
 $bg-form: rgba(238, 238, 238, 1);
 
 .flex-normal {
@@ -30,12 +31,12 @@ $bg-form: rgba(238, 238, 238, 1);
     width: 30vw;
 }
 
-.width-250{
-    width: 250px;
+.width-350{
+    width: 350px;
 }
 
-.padding-10{
-    padding: 10px;
+.padding-20{
+    padding: 20px;
 }
 
 .padding-left-10{
@@ -62,8 +63,20 @@ $bg-form: rgba(238, 238, 238, 1);
     background: rgba(238, 238, 238, 1);
 }
 
+.font-size-45{
+    font-size: 45px;
+}
+
 .font-color-green{
     color: $font-color;
+}
+
+.font-color-black{
+    color:$font-color-black;
+}
+
+.font-bold{
+    font-weight: bold;
 }
 
 .margin-left-20{
