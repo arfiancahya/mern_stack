@@ -29,7 +29,7 @@ const Login = () => {
                     <Gap height={30}/>
                     <p className="font-color-black font-bold">Forgot your password</p>
                     <Gap height={40}/>
-                    <Button title="Sign In" className="background-color-green width-74 padding-18 font-upper font-color-white border-none border-radius-24 box-sizing outline-none" />
+                    <Button title="Sign In" className="background-color-green width-74 padding-18 font-upper font-color-white border-radius-24 box-sizing outline-none" />
                 </div>
                 <div className="width-28 text-align-center background-color-gradient flex-normal flex-direction-coloumn flex-content-center text-align-center background-image background-cover">
                     <h1 className="font-size-50 font-color-white font-bold">Hello, Friend!</h1>
