@@ -36,7 +36,7 @@ const Login = () => {
                     <Gap height={50}/>
                     <p className="font-color-white margin-left-40 margin-right-40">Enter your personal details and start journey with us </p>
                     <Gap height={50}/>
-                    <Button title="Sign In" className="background-color-trans width-74 padding-12 font-upper font-color-white border-radius-24 box-sizing outline-none" />
+                    <Button title="Sign Up" className="background-color-trans width-74 padding-12 font-upper font-color-white border-radius-24 box-sizing outline-none" />
                 </div>
             </div>
         </Fragment>
