@@ -1,0 +1,24 @@
+@mixin login-display (
+$direc: column,
+$content: center, 
+$text-align: center, 
+$left: false
+) {
+    display: flex;
+    flex-direction: $direc;
+    justify-content: $content;
+    text-align: $text-align;
+
+    @if $left {
+        flex: 1;
+    } 
+}
+
+@mixin cont-login ($height) {
+    display: flex;
+    height: $height;
+}
+
+
+
+

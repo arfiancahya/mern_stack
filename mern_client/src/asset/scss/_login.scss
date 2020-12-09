@@ -1,0 +1,13 @@
+@import 'mixin/login';
+
+.model-login {
+    @include cont-login(100vh);
+}
+
+.model-login__left{
+    @include login-display($left: true);
+}
+
+// .model-login__input {
+    
+// }

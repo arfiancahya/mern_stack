@@ -3,9 +3,7 @@ import React, { Fragment } from 'react';
 const Home = () => {
     return (
         <Fragment>
-            <div>
-                <h1>Home</h1>
-            </div>
+            <h1>Arfian Home</h1>
         </Fragment>
     );
 }

@@ -1,0 +1,25 @@
+@mixin input (
+$width, 
+$size, 
+$radius-top, 
+$radius-btm, 
+$bdr: none
+) {
+    width: $width;
+    padding: $size;
+    outline: none;
+    border-top-right-radius: $radius-top;
+    border-bottom-right-radius: $radius-btm;
+    border: $bdr;
+    box-sizing: border-box;
+}
+
+@mixin input__icon (
+$pad-size,
+$top-left,
+$top-right
+){
+    padding: $pad-size;
+    border-top-left-radius: $top-left;
+    border-bottom-left-radius: $top-right;
+}

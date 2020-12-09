@@ -1,0 +1,39 @@
+@import 'mixin/form';
+
+.input {
+    @include input (
+        350px,
+        20px,
+        10px,
+        10px,
+        none
+    )
+}
+
+.input__icon {
+    @include input__icon (
+        20px 0 13px 18px,
+        10px,
+        10px
+    )
+}
+
+.input__icon--grey {
+    background-color: rgba(238, 238, 238, 1);
+    @include input__icon (
+        20px 0 13px 18px,
+        10px,
+        10px
+    )
+}
+
+.input--grey {
+    background-color: rgba(238, 238, 238, 1);
+    @include input (
+        350px,
+        20px,
+        10px,
+        10px,
+        none
+    )
+}

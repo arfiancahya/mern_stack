@@ -6,6 +6,7 @@ $bg-transparant: rgba(255, 255, 255, 0);
 $bg-green: linear-gradient(344.77deg, #2E8474 -3.41%, rgba(133, 218, 120, 0) 106.89%), #2E8474;
 $bg-form: rgba(238, 238, 238, 1);
 
+
 .flex-normal {
     display: flex;
 }
@@ -217,4 +218,8 @@ $bg-form: rgba(238, 238, 238, 1);
 
 .outline-none{
     outline: none;
+}
+
+.color-white{
+    border: 1px solid white;
 }
