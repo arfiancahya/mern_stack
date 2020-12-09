@@ -1,0 +1,14 @@
+@mixin button (
+$w-size,
+$p-size,
+$trans,
+$b-rad,
+$outline
+) {
+    width: $w-size ;
+    padding: $p-size;
+    text-transform: $trans;
+    border-radius: $-b-rad;
+    box-sizing: border-box;
+    outline: $outline;
+}
